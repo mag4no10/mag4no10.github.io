@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparte tu Menú</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+ <!-- Barra de Navegación -->
+ <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#" aria-label="Inicio de Comparte Menú">Comparte Menú</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" aria-current="page">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="servicios.html">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pagina_error.html" aria-label="Explora nuestro menú">Menú</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pagina_error.html" aria-label="Lee nuestras reseñas">Reseñas</a>
+      </li>
+    </ul>
+    <!-- Opción para cambiar el idioma -->
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Idioma
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href=".">Español</a>
+        <a class="dropdown-item" href="../en/index.html">English</a>
+        <a class="dropdown-item" href="#">Français</a>
+      </div>
+    </div>
+    <form class="form-inline" action="iniciar_sesion.html">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" aria-label="Registrarse en el sitio">Registrarse</button>
+      <button class="btn btn-success my-2 my-sm-0 ml-2" type="submit" aria-label="Iniciar sesión en tu cuenta">Iniciar sesión</button>
+    </form>
+  </div>
+</nav>
+
+  <!-- Sección del Héroe -->
+  <section class="container hero-section">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <!-- Contenedor para el texto -->
+        <div class="text-container">
+          <h1>Descubre el Arte del Café Perfecto.</h1>
+          <p>Experimenta la diferencia mientras seleccionamos y tostamos meticulosamente los mejores granos para crear una taza de café verdaderamente inolvidable. Únete a nosotros en un viaje de sabor y despierta tus sentidos, sorbo a sorbo.</p>
+          <form action="pedido.html">
+            <button class="btn btn-primary" type="submit">Ordena ahora</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <!-- Imagen -->
+        <img src="../assets/img/image39.png" class="img-fluid coffee-cup" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Estadísticas -->
+  <div class="statistics">
+    <div class="stats-card">
+      <h2>1K+</h2>
+      <p>Reseñas</p>
+    </div>
+    <div class="stats-card">
+      <h2>3K+</h2>
+      <p>Más vendidos</p>
+    </div>
+    <div class="stats-card">
+      <h2>150K+</h2>
+      <p>Menú</p>
+    </div>
+  </div>
+  <section class="service-section">
+    <h2 style="text-align: center;">NUESTROS DELICIOSOS SERVICIOS</h2>
+    <p style="text-align: center;">Ofrecemos una colección cuidadosamente seleccionada que muestra las características distintivas de los granos provenientes de regiones específicas.</p>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card service-card">
+          <div class="card-body">
+            <h3 class="card-title">Tipos de café</h3>
+            <p class="card-text">Ofrecemos una variedad tentadora de tipos de café para satisfacer tus preferencias únicas.</p>
+            <a href="#" class="btn btn-primary" aria-labelledby="Tipos de cafes">Más información</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card service-card">
+          <div class="card-body">
+            <h4 class="card-title">Diferentes Granos</h4>
+            <p class="card-text">Nos enorgullecemos de seleccionar y tostar los granos de la más alta calidad de todo el mundo.</p>
+            <a href="#" class="btn btn-primary" aria-labelledby="Tipos de Granos">Más información</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card service-card">
+          <div class="card-body">
+            <h4 class="card-title">Café Frío</h4>
+            <p class="card-text">Ofrecemos una variedad de opciones de café frío para satisfacer tus antojos.</p>
+            <a href="#" class="btn btn-primary" aria-labelledby="Cafes frios">Más información</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Imagen de Granos de Café -->
+  <img src="../assets/img/image34.png" class="coffee-beans" alt="Granos de café" style="background-image: none;">
+
+  <!-- Sección de Productos -->
+<section class="product-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">DISFRUTA DE UNA NUEVA MEZCLA DE ESTILO DE CAFÉ</h2>
+    <p class="text-center mb-5">Explora todos los sabores del café con nosotros. Siempre hay una nueva taza que vale la pena experimentar.</p>
+    <div class="row">
+      <!-- Producto -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="../assets/img/image68.png" class="card-img-top" alt="Cappuccino">
+          <div class="card-body">
+            <h3 class="card-title">Cappuccino</h3>
+            <p class="card-text">2 €</p>
+            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+      <!-- ... Chai Latte ... -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="../assets/img/image65.png" class="card-img-top" alt="Chai Latte">
+          <div class="card-body">
+            <h3 class="card-title">Chai Latte</h3>
+            <p class="card-text">3,5 €</p>
+            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+      <!-- ... Macchiato ... -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="../assets/img/image66.png" class="card-img-top" alt="Macchiato">
+          <div class="card-body">
+            <h3 class="card-title">Macchiato</h3>
+            <p class="card-text">3,5 €</p>
+            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+      <!-- ... Americano ... -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="../assets/img/image67.png" class="card-img-top" alt="Americano">
+          <div class="card-body">
+            <h3 class="card-title">Americano</h3>
+            <p class="card-text">2,5 €</p>
+            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+      <!-- ... Expresso ... -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="../assets/img/image63.png" class="card-img-top" alt="Expresso">
+          <div class="card-body">
+            <h3 class="card-title">Expresso</h3>
+            <p class="card-text">1,5 €</p>
+            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+      <!-- ... Mocha ... -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="../assets/img/image64.png" class="card-img-top" alt="Mocha">
+          <div class="card-body">
+            <h3 class="card-title">Mocha</h3>
+            <p class="card-text">2 €</p>
+            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+          </div>
+        </div>
+      </div>
+      <!-- ... Sin productos ... -->
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Menús -->
+<section class="menu-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">MENÚS DEL DÍA</h2>
+    <div id="carouselExampleControls" class="carousel slide"  aria-live="polite" data-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Primer menú -->
+        <div class="carousel-item active">
+          <blockquote class="blockquote text-center">
+            <div class="row">
+              <div class="col-md-8">
+                <h3 style="text-align: center;">Arroz con Pollo</h3>
+                <p class="mb-0">Plato tradicional hecho con pollo, vegetales y especias. Ideal para días en los que uno está cansado, proporcionando una combinación reconfortante de sabores y nutrientes para recargar energías.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="../assets/img/arroz-con-pollo.jpg" class="img-fluid" alt="Arroz con Pollo">
+              </div>
+            </div>
+          </blockquote>
+        </div>
+        <!-- Segundo menú -->
+        <div class="carousel-item">
+          <blockquote class="blockquote text-center">
+            <div class="row">
+              <div class="col-md-8">
+                <h3 style="text-align: center;">Pollo al Curry con Arroz</h3>
+                <p class="mb-0">Plato exótico y reconfortante hecho con trozos de pollo cocidos en una salsa de curry aromática, servido sobre una cama de arroz blanco. Ideal para añadir variedad a tus comidas y disfrutar de sabores intensos y especiados. Perfecto para días en los que buscas una comida reconfortante y deliciosa.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="../assets/img/pollo-al-curry-con-arroz.jpg" class="img-fluid" alt="Pollo al Curry con Arroz">
+              </div>
+            </div>
+          </blockquote>
+        </div>
+        <!-- Tercer menú -->
+        <div class="carousel-item">
+          <blockquote class="blockquote text-center">
+            <div class="row">
+              <div class="col-md-8">
+                <h3 style="text-align: center;">Lasaña de Verduras</h3>
+                <p class="mb-0">Plato vegetariano compuesto por capas de pasta intercaladas con una mezcla de verduras salteadas como calabacín, berenjena y pimientos, acompañadas de una salsa de tomate casera. Una opción reconfortante y llena de sabor, perfecta para cualquier ocasión.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="../assets/img/lasaña.jpg" class="img-fluid" alt="Lasaña de Verduras">
+              </div>
+            </div>
+          </blockquote>
+        </div>
+        <!-- Agrega más menús aquí según sea necesario -->
+      </div>
+      <!-- Controles del Carrusel -->
+      <div class="text-center">
+        <button class="btn btn-secondary" href="#carouselExampleControls" role="button" data-slide="prev" aria-label="Anterior">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="btn btn-secondary" href="#carouselExampleControls" role="button" data-slide="next" aria-label="Siguiente">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+  </div>
+</section>
+
+
+<footer class="bg-dark text-white pt-4 pb-2">
+  <div class="container">
+    <div class="row">
+      <!-- Mapa del Sitio -->
+      <div class="col-md-3">
+        <h3 class="text-uppercase mb-4">Mapa del Sitio</h3>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">Inicio</a></li>
+          <li><a href="#" class="text-white">Servicios</a></li>
+          <li><a href="#" class="text-white">Menú</a></li>
+          <li><a href="#" class="text-white">Opiniones</a></li>
+        </ul>
+      </div>
+
+      <!-- Aviso Legal -->
+      <div class="col-md-3">
+        <h3 class="text-uppercase mb-4">Aviso Legal</h3>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">Términos y Condiciones</a></li>
+          <li><a href="#" class="text-white">Política de Privacidad</a></li>
+          <li><a href="#" class="text-white">Política de Cookies</a></li>
+        </ul>
+      </div>
+
+      <!-- Accesibilidad -->
+      <div class="col-md-3">
+        <h3 class="text-uppercase mb-4">Accesibilidad</h3>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">Opciones de Accesibilidad</a></li>
+          <li><a href="#" class="text-white">Mapa del Sitio Web</a></li>
+        </ul>
+      </div>
+
+      <!-- Contacto y Horarios -->
+      <div class="col-md-3">
+        <h3 class="text-uppercase mb-4">Contacto</h3>
+        <ul class="list-unstyled">
+          <li><a href="mailto:info@ejemplo.com" class="text-white">info@ejemplo.com</a></li>
+          <li><a href="tel:+1234567890" class="text-white">+123 456 7890</a></li>
+        </ul>
+        <h3 class="text-uppercase mt-4 mb-2">Horarios de Apertura</h3>
+        <p class="mb-0">Lunes - Viernes: 9:00 AM - 8:00 PM</p>
+        <p>Sábado - Domingo: 12:00 PM - 2:00 PM</p>
+      </div>
+    </div>
+
+    <!-- Sección de imagen de validación HTML -->
+    <div class="row mt-3">
+      <div class="col-md-12 text-center">
+        <a href="https://validator.w3.org/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" 
+               alt="Valid HTML5" style="max-height: 40px;">
+        </a>
+      </div>
+    </div>
+    
+    <div class="text-center py-3" style="background-color: rgba(255, 255, 255, 0.2);">
+      © 2024 Comparte Menú. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+
+<!-- Script de Bootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+<!-- Bootstrap JS and Popper.js -->
+   <script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

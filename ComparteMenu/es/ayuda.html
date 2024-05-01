@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayuda - Comparte tu Menú</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <!-- Barra de Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Comparte Menú</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menú</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Ayuda</a>
+        </li>
+      </ul>
+      
+      <form class="form-inline" action="iniciar_sesion.html">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Registrarse</button>
+        <button class="btn btn-success my-2 my-sm-0 ml-2" type="submit">Iniciar sesión</button>
+      </form>
+
+    </div>
+  </nav>
+
+  <!-- Contenido de Ayuda -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h1 class="text-center my-4">Página de Ayuda</h1>
+        <p>¡Bienvenido a nuestra página de ayuda! Aquí puedes encontrar respuestas a las preguntas frecuentes y resolver cualquier problema que puedas tener.</p>
+        
+        <div class="accordion" id="faqAccordion">
+          <!-- Pregunta 1 -->
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ¿Cómo puedo realizar un pedido?
+                </button>
+              </h2>
+            </div>
+    
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+              <div class="card-body">
+                Puedes realizar un pedido haciendo clic en el botón "Ordena ahora" en la sección del héroe.
+              </div>
+            </div>
+          </div>
+    
+          <!-- Pregunta 2 -->
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Cómo puedo ver los menús del día?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+              <div class="card-body">
+                Puedes desplazarte hacia abajo hasta la sección "Menús del Día" donde se presentan los menús disponibles.
+              </div>
+            </div>
+          </div>
+          
+          <!-- Pregunta 3 -->
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Cómo puedo actualizar mi información de perfil?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+              <div class="card-body">
+                Para actualizar tu información de perfil, inicia sesión en tu cuenta y ve a la sección de perfil. Desde allí, podrás editar tus detalles personales y guardar los cambios.
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 4 -->
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  ¿Cuál es la política de devolución y reembolso?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+              <div class="card-body">
+                Nuestra política de devolución y reembolso permite devoluciones dentro de los 30 días...
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 5 -->
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  ¿Cómo puedo contactar al soporte técnico?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
+              <div class="card-body">
+                Puedes contactar a nuestro equipo de soporte técnico enviando un correo electrónico a support@example.com o llamando al +123 456 7890.
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 6 -->
+          <div class="card">
+            <div class="card-header" id="headingSix">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  ¿Cómo puedo cambiar mi contraseña?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqAccordion">
+              <div class="card-body">
+                Para cambiar tu contraseña, inicia sesión en tu cuenta y ve a la sección de configuración de la cuenta. Desde allí, podrás cambiar tu contraseña.
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 7 -->
+          <div class="card">
+            <div class="card-header" id="headingSeven">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  ¿Cómo puedo eliminar mi cuenta?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#faqAccordion">
+              <div class="card-body">
+                Para eliminar tu cuenta, por favor contáctanos directamente a través de support@example.com y nuestro equipo de soporte te ayudará con el proceso.
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 8 -->
+          <div class="card">
+            <div class="card-header" id="headingEight">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  ¿Qué métodos de pago aceptan?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#faqAccordion">
+              <div class="card-body">
+                Aceptamos pagos con tarjeta de crédito, tarjeta de débito y PayPal en nuestro sitio web.
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 9 -->
+          <div class="card">
+            <div class="card-header" id="headingNine">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                  ¿Cómo puedo suscribirme a su boletín de noticias?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#faqAccordion">
+              <div class="card-body">
+                Para suscribirte a nuestro boletín de noticias, puedes encontrar un formulario de suscripción en nuestra página de inicio o en la sección de contacto.
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 10 -->
+          <div class="card">
+            <div class="card-header" id="headingTen">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                  ¿Cómo puedo seguir el estado de mi pedido?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#faqAccordion">
+              <div class="card-body">
+                Puedes seguir el estado de tu pedido iniciando sesión en tu cuenta y visitando la sección de pedidos, donde encontrarás información actualizada sobre el estado de tu pedido.
+              </div>
+            </div>
+          </div>
+
+          <!-- Otras preguntas se pueden agregar siguiendo la misma estructura -->
+        
+    </div>
+  </div>
+
+	<footer class="bg-dark text-white pt-4 pb-2">
+		<div class="container">
+			<div class="row">
+				<!-- Mapa del Sitio -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Mapa del Sitio</h3>
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-white">Inicio</a></li>
+						<li><a href="#" class="text-white">Servicios</a></li>
+						<li><a href="#" class="text-white">Menú</a></li>
+						<li><a href="#" class="text-white">Opiniones</a></li>
+					</ul>
+				</div>
+	
+				<!-- Aviso Legal -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Aviso Legal</h3>
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-white">Términos y Condiciones</a></li>
+						<li><a href="#" class="text-white">Política de Privacidad</a></li>
+					</ul>
+				</div>
+	
+				<!-- Accesibilidad -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Accesibilidad</h3>
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-white">Opciones de Accesibilidad</a></li>
+						<li><a href="#" class="text-white">Mapa del Sitio Web</a></li>
+					</ul>
+				</div>
+	
+				<!-- Contacto y Horarios -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Contacto</h3>
+					<ul class="list-unstyled">
+						<li><a href="mailto:info@ejemplo.com" class="text-white">info@ejemplo.com</a></li>
+						<li><a href="tel:+1234567890" class="text-white">+123 456 7890</a></li>
+					</ul>
+					<h3 class="text-uppercase mt-4 mb-2">Horarios de Apertura</h3>
+					<p class="mb-0">Lunes - Viernes: 9:00 AM - 8:00 PM</p>
+					<p>Sábado - Domingo: 12:00 PM - 2:00 PM</p>
+				</div>
+			</div>
+	
+			<!-- Sección de imagen de validación HTML -->
+			<div class="row mt-3">
+				<div class="col-md-12 text-center">
+					<a href="https://validator.w3.org/" target="_blank">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" 
+								 alt="Valid HTML5" style="max-height: 40px;">
+					</a>
+				</div>
+			</div>
+			
+			<div class="text-center py-3" style="background-color: rgba(255, 255, 255, 0.2);">
+				© 2024 Comparte Menú Todos los derechos reservados.
+			</div>
+		</div>
+	</footer>
+
+  <!-- Script de Bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

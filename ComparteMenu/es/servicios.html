@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <title>Nuestros Servicios - Comparte Menú</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .service-section {
+      padding: 60px 0;
+    }
+    .service-heading {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .service-description {
+      margin-bottom: 30px;
+    }
+    .breadcrumb {
+      background-color: transparent;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">Comparte Menú</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menú</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reseñas</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="ayuda.html">Ayuda</a>
+        </li>
+      </ul>
+  
+      <form class="form-inline ml-auto" action="iniciar_sesion.html">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Registrarse</button>
+        <button class="btn btn-success my-2 my-sm-0 ml-2" type="submit">Iniciar sesión</button>
+      </form>
+    </div>
+  </nav>
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Servicios</li>
+    </ol>
+  </nav>
+  
+  <!-- Service Section 1: Venta de Menús -->
+  <section class="service-section" id="menu-sales">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="service-heading">Venta de Menús</h2>
+          <p class="service-description">
+            Explora nuestra extensa variedad de menús, perfectamente diseñados para cada momento del día. Desde desayunos energizantes hasta cenas elegantes, encuentra lo que necesitas para deleitar a tus invitados.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Service Cards -->
+        <!-- Repeat this card for each menu item -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="../assets/img/pollo-al-curry-con-arroz.jpg" class="card-img-top" alt="Menú del día">
+            <div class="card-body">
+              <h5 class="card-title">Menú del Día</h5>
+              <p class="card-text">Disfruta de nuestro menú especial de la semana con ingredientes frescos y locales.</p>
+              <a href="#" class="btn btn-primary">Ver Menú</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Section 2: Menús Personalizados para Alergenos -->
+  <section class="service-section bg-light" id="custom-menus">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="service-heading">Menús Personalizados para Alergenos</h2>
+          <p class="service-description">
+            Entendemos la importancia de atender las necesidades dietéticas específicas. Ofrecemos menús personalizados para evitar alergenos y garantizar que todos puedan disfrutar de una experiencia gastronómica excepcional.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- More Cards/Descriptions for different allergen-free options -->
+        <!-- Example Card -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="../assets/img/lasaña.jpg" class="card-img-top" alt="Menú sin alergenos">
+            <div class="card-body">
+              <h5 class="card-title">Menú sin Gluten</h5>
+              <p class="card-text">Disfruta de nuestras opciones sin gluten, cuidadosamente preparadas para evitar la contaminación cruzada.</p>
+              <a href="#" class="btn btn-primary">Explorar Opciones</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Additional service sections can go here -->
+
+
+  <footer class="bg-dark text-white pt-4 pb-2">
+		<div class="container">
+			<div class="row">
+				<!-- Mapa del Sitio -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Mapa del Sitio</h3>
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-white">Inicio</a></li>
+						<li><a href="#" class="text-white">Servicios</a></li>
+						<li><a href="#" class="text-white">Menú</a></li>
+						<li><a href="#" class="text-white">Opiniones</a></li>
+					</ul>
+				</div>
+	
+				<!-- Aviso Legal -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Aviso Legal</h3>
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-white">Términos y Condiciones</a></li>
+						<li><a href="#" class="text-white">Política de Privacidad</a></li>
+					</ul>
+				</div>
+	
+				<!-- Accesibilidad -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Accesibilidad</h3>
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-white">Opciones de Accesibilidad</a></li>
+						<li><a href="#" class="text-white">Mapa del Sitio Web</a></li>
+					</ul>
+				</div>
+	
+				<!-- Contacto y Horarios -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Contacto</h3>
+					<ul class="list-unstyled">
+						<li><a href="mailto:info@ejemplo.com" class="text-white">info@ejemplo.com</a></li>
+						<li><a href="tel:+1234567890" class="text-white">+123 456 7890</a></li>
+					</ul>
+					<h3 class="text-uppercase mt-4 mb-2">Horarios de Apertura</h3>
+					<p class="mb-0">Lunes - Viernes: 9:00 AM - 8:00 PM</p>
+					<p>Sábado - Domingo: 12:00 PM - 2:00 PM</p>
+				</div>
+			</div>
+	
+			<!-- Sección de imagen de validación HTML -->
+			<div class="row mt-3">
+				<div class="col-md-12 text-center">
+					<a href="https://validator.w3.org/" target="_blank">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" 
+								 alt="Valid HTML5" style="max-height: 40px;">
+					</a>
+				</div>
+			</div>
+			
+			<div class="text-center py-3" style="background-color: rgba(255, 255, 255, 0.2);">
+				© 2024 Comparte Menú. Todos los derechos reservados.
+			</div>
+		</div>
+	</footer>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

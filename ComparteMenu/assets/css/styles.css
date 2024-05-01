@@ -1,0 +1,95 @@
+body {
+  background: #ffffff;
+  color: #000;
+}
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+.hero-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.stats-card {
+  text-align: center;
+}
+.service-section {
+  background: #f8f9fa;
+  padding: 50px 20px;
+}
+.service-card {
+  background: #fff;
+  border: none;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}    .coffee-beans {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 50px 0;
+}
+
+.product-section {
+  text-align: center;
+}
+
+.product-section .card {
+  margin: auto;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.product-section .card img {
+  height: 250px; /* Adjust as per your image aspect ratio */
+  object-fit: cover;
+}
+
+.testimonial-section blockquote {
+  background: #fff;
+  border-left: none;
+  padding: 2rem;
+  position: relative;
+  font-style: italic;
+}
+
+.testimonial-section .blockquote-footer {
+  color: #666;
+  position: relative;
+  font-style: normal;
+}
+
+.coffee-beans-divider {
+  background-color: #e6e6e6;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Adjust the background position if necessary */
+.coffee-beans-divider {
+  background-position: bottom;
+}
+
+.sign-in-container {
+  display: flex;
+  justify-content: flex-end; /* Esto alinea el contenido a la derecha */
+  align-items: center; /* Esto alinea verticalmente el contenido */
+}
+
+.coffee-image {
+  /* Ajusta el tamaño de la imagen según tus necesidades */
+  width: 200px;
+  height: auto; /* Esto mantiene la proporción de la imagen */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .product-section .card img {
+    height: auto;
+  }
+}

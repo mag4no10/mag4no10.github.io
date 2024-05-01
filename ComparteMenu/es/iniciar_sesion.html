@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión - The Coffee Cup</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #F5F5F5;
+    }
+    .sign-in-container {
+      background: #FFF;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      margin: 50px auto;
+    }
+    .divider {
+      position: relative;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .divider:before,
+    .divider:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 40%;
+      height: 1px;
+      background: #D1D1D1;
+    }
+    .divider:before {
+      left: 0;
+    }
+    .divider:after {
+      right: 0;
+    }
+    .divider-text {
+      padding: 0 10px;
+      background: #FFF;
+    }
+    .coffee-image {
+      width: 100%;
+      padding: 0 20px 20px 20px;
+    }
+    .terms {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .terms input {
+      margin-right: 10px;
+    }
+    .google-btn {
+      background: #4285F4;
+      color: #FFF;
+      text-align: center;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra de Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Comparte Menú</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menú</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reseñas</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="ayuda.html">Ayuda</a>
+        </li>
+      </ul>
+      
+      <form class="form-inline" action="iniciar_sesion.html">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Registrarse</button>
+        <button class="btn btn-success my-2 my-sm-0 ml-2" type="submit">Iniciar sesión</button>
+      </form>
+
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <!-- Sign In Form Column -->
+      <div class="col-md-6">
+        <div class="sign-in-container">
+          <h2 class="text-center">Iniciar Sesión</h2>
+          
+          <!-- Sign in with Google -->
+          <div class="google-btn btn btn-danger d-flex align-items-center justify-content-center mb-3">
+            <img src="../assets/img/google.jpg" alt="Google sign-in" style="height: 20px; width: 20px; margin-right: 10px;">
+            Sign in with Google
+          </div>
+  
+          <div class="divider text-center">
+            <span class="divider-text">OR</span>
+          </div>
+          
+          <!-- Sign In Form -->
+          <form>
+            <div class="form-group mb-3">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Ingresa tu nombre de usuario">
+            </div>
+            <div class="form-group mb-3">
+              <label for="password">Contraseña</label>
+              <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
+            </div>
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="terms" required>
+              <label class="form-check-label" for="terms">I agree to the Terms & Privacy</label>
+            </div>
+            <button type="submit" class="btn btn-dark btn-block">Sign up</button>
+          </form>
+        </div>
+      </div>
+  
+      <!-- Image Column -->
+      <div class="col-md-6 d-flex align-items-center p-0">
+        <img src="../assets/img/pexels-photo-312418 1.png" alt="Cup of Coffee" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white pt-4 pb-2">
+		<div class="container">
+			<div class="row">
+				<!-- Mapa del Sitio -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Mapa del Sitio</h3>
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-white">Inicio</a></li>
+						<li><a href="#" class="text-white">Servicios</a></li>
+						<li><a href="#" class="text-white">Menú</a></li>
+						<li><a href="#" class="text-white">Opiniones</a></li>
+					</ul>
+				</div>
+	
+				<!-- Aviso Legal -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Aviso Legal</h3>
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-white">Términos y Condiciones</a></li>
+						<li><a href="#" class="text-white">Política de Privacidad</a></li>
+					</ul>
+				</div>
+	
+				<!-- Accesibilidad -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Accesibilidad</h3>
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-white">Opciones de Accesibilidad</a></li>
+						<li><a href="#" class="text-white">Mapa del Sitio Web</a></li>
+					</ul>
+				</div>
+	
+				<!-- Contacto y Horarios -->
+				<div class="col-md-3">
+					<h3 class="text-uppercase mb-4">Contacto</h3>
+					<ul class="list-unstyled">
+						<li><a href="mailto:info@ejemplo.com" class="text-white">info@ejemplo.com</a></li>
+						<li><a href="tel:+1234567890" class="text-white">+123 456 7890</a></li>
+					</ul>
+					<h3 class="text-uppercase mt-4 mb-2">Horarios de Apertura</h3>
+					<p class="mb-0">Lunes - Viernes: 9:00 AM - 8:00 PM</p>
+					<p>Sábado - Domingo: 12:00 PM - 2:00 PM</p>
+				</div>
+			</div>
+	
+			<!-- Sección de imagen de validación HTML -->
+			<div class="row mt-3">
+				<div class="col-md-12 text-center">
+					<a href="https://validator.w3.org/" target="_blank">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" 
+								 alt="Valid HTML5" style="max-height: 40px;">
+					</a>
+				</div>
+			</div>
+			
+			<div class="text-center py-3" style="background-color: rgba(255, 255, 255, 0.2);">
+				© 2024 Comparte Menú. Todos los derechos reservados.
+			</div>
+		</div>
+	</footer>
+  
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
